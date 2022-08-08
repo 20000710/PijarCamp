@@ -1,0 +1,46 @@
+{
+    "todo":[
+        {
+            "id": 1,
+            "name": "baca buku"            
+        },
+        {
+            "id": 2,
+            "name": "belajar golang"            
+        },
+        {
+            "id": 3,
+            "name": "mengerjakan project javascript"            
+        },
+        {
+            "id": 4,
+            "name": "merapikan tempat tidur"            
+        },
+        {
+            "id": 5,
+            "name": "test bahasa inggris"            
+        }
+    ],
+    "job": [
+        {
+            "id": 1,
+            "name": "Project Manager" 
+        },
+        {
+            "id": 2,
+            "name": "Quality Assurance" 
+        },
+        {
+            "id": 3,
+            "name": "UI/UX Designer" 
+        },
+        {
+            "id": 4,
+            "name": "Frontend Developer" 
+        },
+        {
+            "id": 5,
+            "name": "Backend Developer" 
+        }
+    ]
+}

@@ -21,12 +21,10 @@ const sorting = (char, names, limit) => {
     let arr = []
    
     names.map( name => {
-        // console.log('name: ', name)
         const allNames = name.toLowerCase()
         const input = char.toLowerCase()
-
         let matching = allNames.match(input)
-        // console.log('matching: ', matching)
+        
         if(matching !== null) {
             const { input } = matching
             arr.push(input)
@@ -44,4 +42,6 @@ const sorting = (char, names, limit) => {
     }
 }
 
-searching("an", 5, sorting)
+searching("an", 3, sorting)
+searching("Car", 3, sorting)
+searching("zed", 5, sorting)
