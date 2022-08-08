@@ -1,6 +1,6 @@
 const getMonth = (callback) => {
     setTimeout(() => {
-        let error = false // jika true maka error jika false map data
+        let error = false // jika true maka error jika false kirim array ke callback function
         let month = [
             "January", "February", "Maret", "April", "Mei", "Juni", "Juli", 
             "Agustus", "September", "Oktober", "November", "Desember"
@@ -14,7 +14,7 @@ const getMonth = (callback) => {
 }
 
 const showMonth = (err, month) => {
-    console.log('month: ', month)
+
     try {
         if(month.length === 0) throw err
         else {
